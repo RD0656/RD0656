@@ -7,7 +7,7 @@
 2] Admin can edit student details
 3] Admin can delete a student
 4] Admin can view all students
-5] Admin can view a single student profile */
+5] Admin can view a single student profile * */
 
 CREATE TABLE students_master (
     student_id   INT IDENTITY(1,1) PRIMARY KEY,
