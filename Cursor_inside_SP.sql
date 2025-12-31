@@ -39,7 +39,7 @@ BEGIN
     WHILE @@FETCH_STATUS = 0
     begin
    
-        set @incentive= case when @Leaves<=4 then 1000
+        set @incentive= case when @Leaves<=6 then 1000
                               else 0 end; 
         SET @net_salary = (@basic_salary + @incentive) - ((@basic_salary + @incentive) * @tax_percent / 100);
                       
